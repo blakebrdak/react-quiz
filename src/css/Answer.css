@@ -1,0 +1,72 @@
+.answer {
+    color: white;
+    border-radius: 18px;
+    background-color: rgb(53, 14, 77);
+    padding: 1.2rem;
+    width: 50%;
+    height: 5rem;
+    margin: auto;
+    margin-bottom: 20px;
+    text-align: center;
+    font-size: 1.2rem;
+    border: none;
+    box-sizing: border-box;
+    transition: transform 200ms;
+    animation-name: Bounce;
+    animation-duration: 2s;
+    animation-iteration-count: infinite;
+    animation-timing-function: ease-in;
+}
+
+.answer:hover {
+    background-color: rgb(24, 8, 34);
+    border: 2px solid black;
+    transform: scale(0.9);
+    transition: transform 300ms;
+}
+
+.answer-anim-appear {
+    opacity: 0;
+    transform: scale(0.9);
+}
+
+.answer-anim-appear-active {
+    opacity: 1;
+    transform: translateX(0);
+    transition: opacity 400ms, transform 400ms;
+}
+
+.answer-anim-enter {
+    opacity: 0;
+    transform: scale(0.9);
+}
+
+.answer-anim-enter-active {
+    opacity: 1;
+    transform: translateX(0);
+    transition: opacity 600ms, transform 600ms;
+}
+
+@keyframes Bounce {
+    0% {
+        transform: translateY(0);
+    }
+    50% {
+        transform: translateY(-8.5%);
+    }
+    100% {
+        transform: translateY(0);
+    }
+}
+
+.a1 {
+    animation-delay: 200ms;
+}
+
+.a2 {
+    animation-delay: 400ms;
+}
+
+.a3 {
+    animation-delay: 600ms;
+}

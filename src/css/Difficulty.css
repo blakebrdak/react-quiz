@@ -1,0 +1,32 @@
+.difficulty-selector__wrapper {
+  margin-top: 2rem;
+  display: flex;
+  flex-direction: column;
+}
+
+button {
+  color: white;
+  border-radius: 18px;
+  background-color: rgb(53, 14, 77);
+  padding: 1.2rem;
+  width: 50%;
+  height: 5rem;
+  margin: auto;
+  margin-bottom: 20px;
+  text-align: center;
+  font-size: 1.4rem;
+  border: none;
+  box-sizing: border-box;
+  transition: transform 300ms;
+}
+
+button:hover {
+  background-color: rgb(24, 8, 34);
+  border: 2px solid black;
+  
+}
+
+.selected {
+  background-color: rgb(24, 8, 34);
+  transform: scale(0.9);
+}

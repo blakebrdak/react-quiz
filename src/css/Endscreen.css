@@ -1,0 +1,37 @@
+.endscreen {
+    max-width: 800px;
+    margin: 20px;
+    margin: auto;
+    margin-top: 3rem;
+    background-color: rgb(101, 42, 134);
+    box-shadow: 5px 5px 5px 5px black;
+    font-size: 2rem;
+    text-align: center;
+}
+
+.number {
+    font-weight: bold;
+    font-size: 4rem;
+}
+
+button {
+    color: white;
+    border-radius: 18px;
+    background-color: rgb(53, 14, 77);
+    padding: 1.2rem;
+    width: 50%;
+    height: 5rem;
+    margin: auto;
+    margin-bottom: 20px;
+    text-align: center;
+    font-size: 1.4rem;
+    border: none;
+    box-sizing: border-box;
+}
+
+button:hover {
+    background-color: rgb(24, 8, 34);
+    border: 2px solid black;
+    transform: scale(0.9);
+    transition: transform 300ms;
+}
